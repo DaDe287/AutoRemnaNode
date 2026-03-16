@@ -6,6 +6,8 @@
 
 curl -fsSL https://get.docker.com | sh
 
+echo "1" | sudo apt install nano
+
 mkdir /opt/remnanode && cd /opt/remnanode
 
 cd /opt/remnanode && nano docker-compose.yml
